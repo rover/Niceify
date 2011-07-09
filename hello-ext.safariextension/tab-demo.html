@@ -1,0 +1,59 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="tab-style.css" />
+	<script type="text/javascript" src="jquery-1.6.min.js"></script>
+</head>
+<body>
+	<ul id="tab-bar">
+		<li onClick="switchTab('links')" class="tab-highlighted tab" id="tab-links">Links</li>
+		<li onClick="switchTab('references')" class="tab-normal tab" id="tab-references">References</li>
+		<li onClick="switchTab('search')" class="tab-normal tab" id="tab-search">Find Music</li>
+		<li onClick="switchTab('player')" class="tab-normal tab" id="tab-player">Player</li>
+		<li onClick="switchTab('prefs')" class="tab-normal tab" id="tab-prefs">Preferences</li>
+	</ul>
+	<div class="visible tab-pane" id="pane-links">
+		<h1>Music Links on This Page</h1>
+		<p>tracks on this page:</p>
+		<ul id="track-list"></ul>
+		<p>Artists on this page:</p>
+		<ul id="artist-list"></ul>
+		<p>Albums on this page:</p>
+		<ul id="album-list"></ul>
+	</div>
+	
+	<div class="hidden tab-pane" id="pane-references">
+		<h1>Music References on this Page</h1>
+	</div>
+	
+	<div class="hidden tab-pane" id="pane-search">
+		<h1>Find Music</h1>
+		<input type="textbox" placeholder="search" id="search-box" /><button id="submit-search">go</button>
+		<p>-------------------------------------------------------------</p>
+		<p>Highlight any text to automatically search Spotify</p>
+		<div id="search-results"></div>
+	</div>
+	
+	<div class="hidden tab-pane" id="pane-player">
+		<h1>Player</h1>
+		<span id="current-song"></span>
+		<div id="player-buttons">
+			<button>&lt;&lt;</button><button>Play</button><button>&gt;&gt;</button>
+		</div>
+	</div>
+	
+	<div class="hidden tab-pane" id="pane-prefs">
+		<h1>Preferences</h1>
+	</div>
+		
+	
+	<script>
+		function switchTab(tab) {
+			$('.visible').removeClass('visible').addClass('hidden');
+			$('#pane-'+tab).removeClass('hidden').addClass('visible');
+			$('.tab-highlighted').removeClass('tab-highlighted').addClass('tab-normal');
+			$('#tab-'+tab).removeClass('tab-normal').addClass('tab-highlighted');
+		}
+	</script>
+	
+</body>
+</html>

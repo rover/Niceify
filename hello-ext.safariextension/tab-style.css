@@ -1,0 +1,44 @@
+#tab-bar {
+	height: 19px;
+	width: 550px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+}
+
+#tab-bar li {
+	text-decoration: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+	text-align: center;
+	width: 108px;
+}
+
+#tab-bar li:hover, .tab-highlighted {
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+}
+
+.tab-pane {
+	width: 550px;
+	height: 30%;
+	border: 1px solid black;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+.tab-normal {
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
