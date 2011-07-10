@@ -1,0 +1,21 @@
+Niceify plays music mentioned on the pages you visit in real time through Spotify.
+
+Right now we support iTunes links, Spotify links (both http: and spotify:), and user selected text.
+
+We have limited support for incidental mentions on a page and are experimenting with other media types.
+
+--------------------------------
+
+This is a VERY early alpha.
+
+You'll need your own Developer Certificate from Apple (developer.apple.com, free) to install from source. 
+
+Otherwise, get the bundle at http://niceify.com
+
+We're working on the algorithm that scrapes pages for possible mentions (and is responsible for most of the errors right now).
+
+Chrome and Firefox versions coming soon.
+
+Long term goals include supporting other media types (Netflix, Project Gutenberg, Open Library, Hulu), searching local and cloud-based libraries, and building more integrated support into a stand-alone browser/app.
+
+Feedback: feedback@niceify.com
