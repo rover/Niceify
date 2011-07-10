@@ -4,6 +4,10 @@ Right now we support iTunes links, Spotify links (both http: and spotify:), and 
 
 We have limited support for incidental mentions on a page and are experimenting with other media types.
 
+This software is considered to be experimental and is provided without a warrantee of any kind. Use at your own risk. Apollic Software, LLC is not liable for any damage or injury that may result from use.
+
+Apollic Software, LLC is unaffiliated with Spotify, Apple, Google, Facebook, Twitter, Netflix, Amazon, or any other content providers. 
+
 --------------------------------
 
 Version 0.0.1
