@@ -509,7 +509,7 @@ var scrapedLinks = [];
 
 
 scrapeLinks();
-scrape();
+//scrape();
 //if (bAutoplay) {
 	setTimeout('travel()', 3000);
 //}
