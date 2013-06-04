@@ -27,4 +27,6 @@ Long term goals include supporting other media types (Netflix, Project Gutenberg
 Feedback: feedback@niceify.com
 
 
-## Todo: Add Tent support (https://tent.io)
+## Todo: 
+
+ - Add Tent support (https://tent.io)
