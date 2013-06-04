@@ -25,3 +25,6 @@ Chrome and Firefox versions coming soon.
 Long term goals include supporting other media types (Netflix, Project Gutenberg, Open Library, Hulu), searching local and cloud-based libraries, and building more integrated support into a stand-alone browser/app.
 
 Feedback: feedback@niceify.com
+
+
+## Todo: Add Tent support (https://tent.io)
