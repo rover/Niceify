@@ -29,4 +29,4 @@ Feedback: feedback@niceify.com
 
 ## Todo: 
 
- - Add Tent support (https://tent.io)
+ - Add Tent 0.4 support (https://tent.io) with full query capability
