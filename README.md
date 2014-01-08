@@ -30,3 +30,4 @@ Feedback: feedback@niceify.com
 ## Todo: 
 
  - Add Tent 0.4 support (https://tent.io) with full query capability
+ - Add compliant schema wiht semantic URIs
